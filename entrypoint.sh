@@ -30,22 +30,7 @@ export CF_API_KEY="$INPUT_APIKEY"
 
 npm i @cloudflare/wrangler -g
 
-if ! [ -z "$INPUT_WORKINGDIRECTORY" ]
-then
-  cd $INPUT_WORKINGDIRECTORY
-fi
+cd $HOME
 
 npm i 
 npm run publish
-
-if [ -z "$INPUT_ENVIRONMENT" ]
-then
-  wrangler publish
-else
-  wrangler publish -e "$INPUT_ENVIRONMENT"
-fi
-
-if ! [ -z "$INPUT_WORKINGDIRECTORY" ]
-then
-  cd $HOME
-fi
