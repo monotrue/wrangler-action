@@ -35,6 +35,7 @@ then
   cd $INPUT_WORKINGDIRECTORY
 fi
 
+npm i 
 npm run publish
 
 if [ -z "$INPUT_ENVIRONMENT" ]
