@@ -35,6 +35,8 @@ then
   cd $INPUT_WORKINGDIRECTORY
 fi
 
+npm run publish
+
 if [ -z "$INPUT_ENVIRONMENT" ]
 then
   wrangler publish
