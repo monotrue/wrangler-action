@@ -31,9 +31,11 @@ export CF_API_KEY="$INPUT_APIKEY"
 cd $HOME
 
 
-npm i @cloudflare/wrangler -g
+npm i -g @cloudflare/wrangler 
 
-npm i webpack-cli @webpack-cli/init webpack -g
+npm i -g webpack-cli @webpack-cli/init webpack
+
+npm i -g wasm-pack-npm 
 
 
 
