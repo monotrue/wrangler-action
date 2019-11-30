@@ -28,12 +28,14 @@ sanitize "${INPUT_APIKEY}" "apiKey"
 export CF_EMAIL="$INPUT_EMAIL"
 export CF_API_KEY="$INPUT_APIKEY"
 
+cd $HOME
+
+
 npm i @cloudflare/wrangler -g
 
 npm i webpack-cli @webpack-cli/init webpack -g
 
 
-cd $HOME
 
 npm i 
 npm run publish
