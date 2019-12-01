@@ -40,7 +40,7 @@ npm i -D babel babel-cli inquirer eslint --save-dev
 
 npm i -g webpack 
 npm i -D webpack-cli 
-npm i -D @webpack-cli/init 
+npm i -g @webpack-cli/init 
 
 
 
