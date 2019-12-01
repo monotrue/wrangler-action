@@ -36,12 +36,12 @@ npm i
 npm i -D babel babel-cli --save-dev 
 npm i -D inquirer eslint
 
-npm i -D @cloudflare/wrangler 
+npm i -g @cloudflare/wrangler 
 npm i -D wasm-pack-npm 
 
-npm i -D webpack 
-npm i -D webpack-cli 
-npm i -D @webpack-cli/init 
+npm i -g webpack 
+npm i -g webpack-cli 
+npm i -g @webpack-cli/init 
 
 
 
