@@ -31,22 +31,17 @@ export CF_API_KEY="$INPUT_APIKEY"
 
 cd $HOME
 
-npm i 
-npm install babel-core babel-loader babel-preset-es2015 --save-dev
-npm i vue-loader --save-dev
-npm i -D babel babel-cli inquirer eslint --save-dev 
-
 npm i -g @cloudflare/wrangler 
 npm i -D wasm-pack-npm 
+
+npm i 
+npm install babel-core babel-loader babel-preset-es2015 --save-dev
+npm i -D babel babel-cli inquirer eslint --save-dev 
 
 npm i -g webpack 
 npm i -D webpack-cli 
 npm i -D @webpack-cli/init 
 
-
-
-npm i webpack-merge  --save-dev
-npm i webpack-node-externals --save-dev
 
 
 wrangler whoami
