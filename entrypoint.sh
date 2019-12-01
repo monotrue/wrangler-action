@@ -33,11 +33,16 @@ cd $HOME
 
 npm i -g @cloudflare/wrangler 
 
-npm i -g webpack-cli @webpack-cli/init webpack
+npm i -g webpack-cli
+npm i -g @webpack-cli/init
+npm i -g webpack
 
 npm i -g wasm-pack-npm 
 
 
 
 npm i 
+
+webpack -v
+
 npm run publish
