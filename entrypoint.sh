@@ -33,9 +33,8 @@ cd $HOME
 
 npm i 
 npm install babel-core babel-loader babel-preset-es2015 --save-dev
-npm i vue-loader --save-dev
-npm i -D babel babel-cli --save-dev 
-npm i -D inquirer eslint
+npm i -D vue-loader --save
+npm i -D babel babel-cli inquirer eslint --save-dev 
 
 npm i -g @cloudflare/wrangler 
 npm i -D wasm-pack-npm 
