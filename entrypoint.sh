@@ -5,6 +5,7 @@ set -e
 export HOME="/github/workspace"
 export NVM_DIR="/github/workspace/nvm"
 export WRANGLER_HOME="/github/workspace"
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # h/t https://github.com/elgohr/Publish-Docker-Github-Action
 sanitize() {
