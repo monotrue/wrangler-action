@@ -30,18 +30,21 @@ export CF_API_KEY="$INPUT_APIKEY"
 
 cd $HOME
 
+npm i 
+
 
 npm i -g @cloudflare/wrangler 
-
-npm i -g webpack-cli
-npm i -g @webpack-cli/init
-npm i -g --save webpack
-
 npm i -g wasm-pack-npm 
 
+npm i -g webpack --save-dev
+npm i -g webpack-cli  --save-dev
+npm i -g @webpack-cli/init  --save-dev
+
+npm i  webpack-merge  --save-dev
+npm i webpack-node-externals --save-dev
 
 
-npm i 
+
 
 webpack -v
 
