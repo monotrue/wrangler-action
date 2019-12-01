@@ -45,6 +45,7 @@ npm i -D inquirer eslint
 
 npm i webpack-merge  --save-dev
 npm i webpack-node-externals --save-dev
+npm i babel babel-cli --save-dev 
 
 
 
