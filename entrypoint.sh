@@ -35,7 +35,7 @@ npm i -g @cloudflare/wrangler
 
 npm i -g webpack-cli
 npm i -g @webpack-cli/init
-npm i -g webpack
+npm i -g --save webpack
 
 npm i -g wasm-pack-npm 
 
