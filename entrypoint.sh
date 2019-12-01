@@ -34,10 +34,10 @@ cd $HOME
 npm i 
 
 
-npm i -g @cloudflare/wrangler 
-npm i -g wasm-pack-npm 
+npm i -D @cloudflare/wrangler 
+npm i -D wasm-pack-npm 
 
-npm i -g webpack 
+npm i -D webpack 
 npm i -D webpack-cli 
 npm i -D @webpack-cli/init 
 
