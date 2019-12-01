@@ -49,7 +49,7 @@ npm i webpack-merge  --save-dev
 npm i webpack-node-externals --save-dev
 
 
-
+wrangler whoami
 
 webpack -v
 
