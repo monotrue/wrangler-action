@@ -32,7 +32,8 @@ export CF_API_KEY="$INPUT_APIKEY"
 cd $HOME
 
 npm i 
-
+npm install babel-core babel-loader babel-preset-es2015 --save-dev
+npm i vue-loader --save-dev
 npm i -D babel babel-cli --save-dev 
 npm i -D inquirer eslint
 
