@@ -41,6 +41,8 @@ npm i -g webpack
 npm i -D webpack-cli 
 npm i -D @webpack-cli/init 
 
+npm i -D inquirer eslint
+
 npm i webpack-merge  --save-dev
 npm i webpack-node-externals --save-dev
 
