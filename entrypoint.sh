@@ -38,8 +38,8 @@ npm i -g @cloudflare/wrangler
 npm i -g wasm-pack-npm 
 
 npm i -g webpack 
-npm i -g webpack-cli 
-npm i -g @webpack-cli/init 
+npm i -D webpack-cli 
+npm i -D @webpack-cli/init 
 
 npm i webpack-merge  --save-dev
 npm i webpack-node-externals --save-dev
