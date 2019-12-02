@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Publish
-        uses: cloudflare/wrangler-action@1.0.0
+        uses: monotrue/wrangler-action-vuejs@master
         with:
           apiKey: ${{ secrets.CF_API_KEY }}
           email: ${{ secrets.CF_EMAIL }}
@@ -38,7 +38,7 @@ jobs:
   deploy:
     name: Deploy
     steps:
-      uses: cloudflare/wrangler-action@1.0.0
+      uses: monotrue/wrangler-action-vuejs@master
       with:
         apiKey: ${{ secrets.CF_API_KEY }}
         email: ${{ secrets.CF_EMAIL }}
@@ -51,7 +51,7 @@ jobs:
   deploy:
     # ... previous configuration ...
     steps:
-      uses: cloudflare/wrangler-action@1.0.0
+      uses: monotrue/wrangler-action-vuejs@master
       with:
         # ... api key and email ...
         environment: 'production'
@@ -64,7 +64,7 @@ jobs:
   deploy:
     # ... previous configuration ...
     steps:
-      uses: cloudflare/wrangler-action@1.0.0
+      uses: monotrue/wrangler-action-vuejs@master
       with:
         # ... api key and email ...
         workingDirectory: 'subfoldername'
@@ -89,7 +89,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Publish
-        uses: cloudflare/wrangler-action@1.0.0
+        uses: monotrue/wrangler-action-vuejs@master
         with:
           apiKey: ${{ secrets.CF_API_KEY }}
           email: ${{ secrets.CF_EMAIL }}
@@ -113,7 +113,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Publish app
-        uses: cloudflare/wrangler-action@1.0.0
+        uses: monotrue/wrangler-action-vuejs@master
         with:
           apiKey: ${{ secrets.CF_API_KEY }}
           email: ${{ secrets.CF_EMAIL }}
@@ -136,7 +136,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Publish app
-        uses: cloudflare/wrangler-action@1.0.0
+        uses: monotrue/wrangler-action-vuejs@master
         with:
           apiKey: ${{ secrets.CF_API_KEY }}
           email: ${{ secrets.CF_EMAIL }}
@@ -188,7 +188,7 @@ jobs:
       - name: Build site
         run: 'npm run build'
       - name: Publish
-        uses: cloudflare/wrangler-action@1.0.0
+        uses: monotrue/wrangler-action-vuejs@master
         with:
           apiKey: ${{ secrets.CF_API_KEY }}
           email: ${{ secrets.CF_EMAIL }}
