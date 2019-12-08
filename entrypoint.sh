@@ -40,6 +40,8 @@ npm i -D babel babel-cli inquirer eslint --save-dev
 
 npm i -g webpack 
 npm i -D webpack-cli 
+npm i -D workbox-cli --save-dev
+
 npm i -g @webpack-cli/init 
 
 
@@ -47,5 +49,8 @@ npm i -g @webpack-cli/init
 wrangler whoami
 
 webpack -v
+
+npx workbox generateSW workbox-config.js
+
 
 npm run publish
