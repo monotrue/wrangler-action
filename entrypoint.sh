@@ -50,7 +50,7 @@ wrangler whoami
 
 webpack -v
 
-npx workbox generateSW workbox-config.js
+
 
 
 npm run publish
